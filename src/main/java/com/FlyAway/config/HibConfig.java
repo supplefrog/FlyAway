@@ -24,7 +24,7 @@ public class HibConfig {
 		properties.put(Environment.DRIVER, "com.mysql.cj.jdbc.Driver");
 		properties.put(Environment.URL, "jdbc:mysql://localhost:3306/flyawaydb");
 		properties.put(Environment.USER, "root");
-		properties.put(Environment.PASS, "123456789");
+		properties.put(Environment.PASS, "root");
 		// Hibernate properties
 		properties.put(Environment.SHOW_SQL, "true");
 		properties.put(Environment.HBM2DDL_AUTO, "update");
